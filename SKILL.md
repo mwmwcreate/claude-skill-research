@@ -74,7 +74,11 @@ Research Requestを書き始める前に、**現在のプロジェクトを実�
 - **Research Questions**（答えるべき問い）
 - **How Claude Will Use This Research**（返ってきた情報を何に使うか）
 
-最後の項目は軽視しやすいが、Researcherの出力の実用性を最も左右する。
+"How Claude Will Use This Research" は軽視しやすいが、Researcherの出力の実用性を最も左右する。
+
+また **「調査方針」と「期待する返却形式」のブロックは、Levelにかかわらず必ず末尾に付ける**。
+Quickでも省略しない。ここを落とすと、返ってきた回答が生のMarkdownでなくなり、
+表・見出し・参照URLが失われてそのまま保存・再利用できなくなる。
 
 書き方:
 
