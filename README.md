@@ -18,8 +18,8 @@ Researcher（誰が調べるか）と、受け渡し方法（どう渡すか）�
 | 受け渡し | `researchers/chatgpt.md` | ChatGPT + 手動コピペ固有の作法 |
 | 受け渡し | `researchers/codex.md` | Codex CLI + 非対話実行固有の作法 |
 
-既定の構成は **Researcher = ChatGPT / 受け渡し = 手動コピー&ペースト（Human-in-the-loop）**。
-ユーザーが Codex を指定したときは、Codex CLI を非対話で実行し、結果をファイルで受け取る。
+既定の構成は **Researcher = Codex CLI / 受け渡し = バックグラウンドでの非対話実行**（依頼書をファイルで渡し、結果をファイルで受け取る）。
+ユーザーが ChatGPT を指定したとき、または Codex が使えないときは、ChatGPT への手動コピー&ペースト（Human-in-the-loop）に切り替える。
 OpenAI API・MCP・ローカルLLM へ移行する場合は `researchers/` にアダプタを足し、
 `SKILL.md` の構成表を書き換える。上2層は触らない。
 

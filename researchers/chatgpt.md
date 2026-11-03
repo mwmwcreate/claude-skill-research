@@ -1,6 +1,6 @@
 # Researcher アダプタ: ChatGPT（手動コピー&ペースト）
 
-現在有効なアダプタ。**ChatGPT固有の作法だけをここに書く。**
+ユーザーがChatGPTを指定したとき、またはCodexが使えないときのアダプタ（既定は `codex.md`）。**ChatGPT固有の作法だけをここに書く。**
 何を調べるべきかの判断は `../SKILL.md`、依頼書の中身は `../templates/research-request.md` にある。
 
 | | |
